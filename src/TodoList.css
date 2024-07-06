@@ -1,0 +1,169 @@
+.body {
+  width: auto;
+  height: 100%;
+  background-color: #a4fff4;
+  border-radius: 9px;
+  /* padding: 1rem; */
+}
+.todoInput {
+  padding: 1rem;
+  height: 3rem;
+  width: 23rem;
+  border-radius: 15px;
+  border: 5px solid rgb(64, 255, 6);
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+.add-task {
+  border-radius: 8px;
+  border: 1px solid rgb(6, 240, 6);
+  padding: 0.6em 1em;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #04e3fc;
+  cursor: pointer;
+  transition: border-color 2s;
+}
+.add-task:hover {
+  font-size: 16px;
+  font-weight: 900;
+  color: #ffffff;
+  background-color: #2e7d0c;
+}
+.add-task:focus,
+.add-task:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.ul {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.text {
+  margin-left: -4rem;
+  margin-top: -2rem;
+  margin-right: 12rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15rem;
+  margin-bottom: 0.5rem;
+  margin-top: -1.5rem;
+  padding-top: 5px;
+  padding-right: 11px;
+}
+
+.dlt {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  height: 2rem;
+  width: 5rem;
+  background-color: rgb(53, 213, 245);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+.dlt:hover {
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+  height: 2.03rem;
+  width: 5.03rem;
+  background-color: rgb(250, 0, 0);
+  border: 2px solid rgb(2, 18, 24);
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+.MasD {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  height: 2rem;
+  width: 9rem;
+  background-color: rgb(53, 213, 245);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: border-color 0.12s;
+}
+.MasD:hover {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 800;
+  height: 2.03rem;
+  width: 9.03rem;
+  background-color: rgb(2, 214, 122);
+  border: 2px solid rgb(98, 97, 97);
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+
+.AllDone {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 9rem;
+  background-color: rgb(53, 213, 245);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: border-color 0.12s;
+  margin: 1rem;
+}
+.AllDelete {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 9rem;
+  background-color: rgb(244, 38, 38);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: border-color 0.12s;
+  margin: 1rem;
+}
+
+.AllDelete:hover {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 800;
+  height: 2.5rem;
+  width: 9rem;
+  background-color: rgb(244, 38, 38);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: border-color 0.12s;
+  margin: 1rem;
+}
+.AllDone:hover {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 800;
+  height: 2.55rem;
+  width: 10rem;
+  background-color: rgb(38, 114, 244);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: border-color 0.12s;
+  margin: 1rem;
+}
